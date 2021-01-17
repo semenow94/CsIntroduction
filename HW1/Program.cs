@@ -6,7 +6,11 @@ namespace HW1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Введите свое имя :");
+            string userName = Console.ReadLine();
+            Console.WriteLine($"Привет, {userName}, сегодня {DateTime.Now:D}");
+            Console.WriteLine("Нажмите любую клавишу");
+            Console.ReadKey();
         }
     }
 }
