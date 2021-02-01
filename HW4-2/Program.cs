@@ -6,7 +6,7 @@ namespace HW4_2
     //Ввести данные с клавиатуры и вывести результат на экран
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.Write("Введите челые числа через пробел ");
             string[] input = Console.ReadLine().Split(' ');
