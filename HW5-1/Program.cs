@@ -6,7 +6,7 @@ namespace HW5_1
     //Ввести с клавиатуры произвольный набор данных и сохранить его в текстовый файл.
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.Write("Введите любой текст : ");
             string str = Console.ReadLine();

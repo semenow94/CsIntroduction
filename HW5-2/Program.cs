@@ -6,7 +6,7 @@ namespace HW5_2
     //Написать программу, которая при старте дописывает текущее время в файл «startup.txt»
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string filename = "startup.txt";
             string str = $"{DateTime.Now}\n";
